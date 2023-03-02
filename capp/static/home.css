@@ -1,0 +1,131 @@
+/* Section Header_home */
+body {
+    background-color: #9bc2be;
+  }
+.section_header_home {
+    background-color: #c6dcda;
+    padding: 10px;
+}
+.header_home {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.box_home {
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    background-color: #b0d1ce !important;
+}
+
+body {
+    font-family: 'Itim', cursive;
+    line-height: 1.6;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_home .box_home {
+    flex: 1;
+    color: #f37979;
+    margin: 0 20px 10px;
+    padding: 15px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.header_home .box_home:nth-of-type(1) {
+    flex-grow: 2;
+}
+.header_home .box_home:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+/* Developers */
+.section_developers {
+    background-color: #acc9c7;
+}
+.developers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.developers .box_home {
+    flex: 1;
+    background-color: #f37979;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    text-align: center;
+}
+.developers .box2_home {
+    flex: 1;
+    background-color: #f37979;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    text-align: center;
+}
+.developers .box2_home:nth-of-type(1) {
+    flex-grow: 4;
+}
+.developers .box2_home:nth-of-type(2) {
+    flex-grow: 4;
+}
+.developers .box2_home:nth-of-type(3) {
+    flex-grow: 4;
+}
+.developers .box2_home:nth-of-type(4) {
+    flex-grow: 4;
+    background-color: #a9bdbc;
+}
+.container_buttons_developers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_developers {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #f37979;
+    border: 2px solid #fff;
+    box-shadow: 0.5px 0.5px 0.5px #fff;
+}
+.btn_developers:hover {
+    background-color: #ec6767;
+    text-decoration: none;
+}
+
+
+
+@media(max-width:768px) {
+    .header_home {
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .developers {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar.navbar-expand-lg {
+        display: flex;
+        flex-direction: column;
+    }
+    .developers {
+        flex-direction: column;
+    }
+    .container_buttons_developers {
+        flex-direction: column;
+    }
+}

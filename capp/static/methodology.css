@@ -1,0 +1,102 @@
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+    background-color: #f37979;
+    border-color: #f37979;
+}
+
+.btn-primary:hover {
+    background-color: #f46565;
+    border-color: #f36b6b;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    background-color: #f46565;
+    border-color: #f46565;
+}
+
+.btn-primary:active {
+background-color: #f46565;
+border-color: #f46565;
+}
+
+.section_formulas {
+    display: flex;
+    justify-content: center;
+    color:#f37979
+}
+
+  .section_formulas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #acc9c7
+  }
+
+  .container_formulas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+  }
+
+  .box {
+    background-color: #f37979;
+    width: 45%;
+    height: 45%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .box p {
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left {
+    align-self: flex-start;
+  }
+
+  .right {
+    align-self: flex-end;
+  }
+  .title {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 5vh;
+  }
+  .box.bottom.left {
+    justify-content: center;
+  }
+  .box.bottom.right {
+    justify-content: center;
+  }
+  .box.top.left {
+    justify-content: center;
+  }
+  .box.top.right {
+    justify-content: center;
+  }
+ 
+    
